@@ -1,0 +1,134 @@
+
+.gradient-background {
+  background: linear-gradient(300deg, #F7EEDD, #ACE2E1, #41C9E2, #008DDA);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+ul,
+.Hello,
+.perkenalan,
+.my-skill,
+.tentang {
+  color: #F7EEDD; 
+}
+
+
+.Hello {
+  font-size: 4rem; 
+  font-family: "Montserrat", sans-serif; 
+}
+
+
+.perkenalan {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  font-family: "Roboto", sans-serif; 
+}
+
+
+.tentang {
+  color: #008DDA; 
+  font-size: 2rem; 
+  font-family: "Montserrat", sans-serif; 
+}
+
+
+body {
+  color: #40514e; 
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif; 
+}
+
+/* Heading Styles */
+h2 {
+  color: #000000; 
+  font-family: "Montserrat", sans-serif; 
+  font-size: 2.5rem; 
+  font-weight: normal; 
+}
+
+
+h3 {
+  color: #41C9E2; 
+  font-family: "Montserrat", sans-serif; 
+}
+
+
+p {
+  line-height: 2; 
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+#aboutme {
+  opacity: 0; /
+  animation: fadeIn 1s forwards; 
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; } 
+  to { opacity: 1; } 
+}
+
+#aboutme img:hover {
+  transform: rotate(10deg); 
+}
+
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+#aboutme {
+  background-color: #F7EEDD; 
+  padding: 50px 0; 
+}
+
+.aboutme-img img {
+  max-width: 100%; 
+  border-radius: 50%; 
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.aboutme-content {
+  padding: 0 20px; 
+}
+
+.tentang {
+  font-size: 18px; 
+  line-height: 1.6; 
+}
+
+
+#footer {
+  padding: 50px 0; 
+  color: #F7EEDD; 
+}
+
+
+@media (max-width: 575.98px) {
+}
+#skills {
+  background-color: #F7EEDD;
+}
